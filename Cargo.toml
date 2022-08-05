@@ -1,0 +1,33 @@
+[package]
+name = "readme-api"
+edition = "2021"
+version = "0.1.0"
+description = "Readme client, generated from the OpenAPI spec."
+homepage = "https://github.com/libninjacom/readme-rs"
+documentation = "https://docs.rs/readme-api"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/libninjacom/readme-rs"
+
+[dependencies]
+anyhow = "1.0.57"
+httpclient = "0.5.0"
+serde_json = "1.0.81"
+
+[dependencies.serde]
+version = "1.0.137"
+features = ["derive"]
+optional = false
+[dev-dependencies.tokio]
+version = "1.18.2"
+features = ["full"]
+optional = false
+
+[lib]
+path = "src/lib.rs"
+name = "readme_api"
+plugin = false
+proc-macro = false
+edition = "2021"
+crate-type = ["rlib"]
+required-features = []
