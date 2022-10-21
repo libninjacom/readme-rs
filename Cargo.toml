@@ -1,7 +1,7 @@
 [package]
 name = "readme-api"
 edition = "2021"
-version = "0.1.0"
+version = "1.0.0"
 description = "Readme client, generated from the OpenAPI spec."
 homepage = "https://github.com/libninjacom/readme-rs"
 documentation = "https://docs.rs/readme-api"
@@ -30,4 +30,252 @@ plugin = false
 proc-macro = false
 edition = "2021"
 crate-type = ["rlib"]
+required-features = []
+
+[[example]]
+path = "examples/create_changelog.rs"
+name = "create_changelog"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/create_custom_page.rs"
+name = "create_custom_page"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/create_doc.rs"
+name = "create_doc"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/create_version.rs"
+name = "create_version"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_api_specification.rs"
+name = "delete_api_specification"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_changelog.rs"
+name = "delete_changelog"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_custom_page.rs"
+name = "delete_custom_page"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_doc.rs"
+name = "delete_doc"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_swagger.rs"
+name = "delete_swagger"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/delete_version.rs"
+name = "delete_version"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_api_specification.rs"
+name = "get_api_specification"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_category.rs"
+name = "get_category"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_category_docs.rs"
+name = "get_category_docs"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_changelog.rs"
+name = "get_changelog"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_changelogs.rs"
+name = "get_changelogs"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_custom_page.rs"
+name = "get_custom_page"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_custom_pages.rs"
+name = "get_custom_pages"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_doc.rs"
+name = "get_doc"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_errors.rs"
+name = "get_errors"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_project.rs"
+name = "get_project"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_version.rs"
+name = "get_version"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/get_versions.rs"
+name = "get_versions"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/search_docs.rs"
+name = "search_docs"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_api_specification.rs"
+name = "update_api_specification"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_changelog.rs"
+name = "update_changelog"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_custom_page.rs"
+name = "update_custom_page"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_doc.rs"
+name = "update_doc"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_swagger.rs"
+name = "update_swagger"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/update_version.rs"
+name = "update_version"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/upload_api_specification.rs"
+name = "upload_api_specification"
+plugin = false
+proc-macro = false
+edition = "2021"
+required-features = []
+
+[[example]]
+path = "examples/upload_swagger.rs"
+name = "upload_swagger"
+plugin = false
+proc-macro = false
+edition = "2021"
 required-features = []
